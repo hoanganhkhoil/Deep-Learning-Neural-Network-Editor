@@ -56,8 +56,7 @@ def _build_vocab(filename):
   for word in wordCounted:
     word_to_id[word[0]] = len(word_to_id)
 
-  print ("Len word_to_id: ", len(word_to_id))
-  print (word_to_id)
+  print ("Size of dictionary: ", len(word_to_id))
 
   return word_to_id
 
